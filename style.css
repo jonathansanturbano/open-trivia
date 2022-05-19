@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(230, 230, 255);
+}
+
+li {
+  cursor: grab;
+}
+
+#counter {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  background-color: rgb(100, 100, 255);
+  border-radius: 8px;
+}
+
+#reset {
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  background-color: rgb(100, 100, 255);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s;
+}
+
+#reset:active {
+  transform: rotate(360deg);
+}
