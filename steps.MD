@@ -1,5 +1,5 @@
 ## Exercise 1
-Extract the list of questions from the API. Should fetch them on page load
+Extract the list of questions from the API. Should fetch them on page load and display them question and potential answers alphabetically
 Go to https://opentdb.com/api_config.php and generate a URL. You can choose whichever options but for Type use Multiple Choice
 
 ## Exercise 2
